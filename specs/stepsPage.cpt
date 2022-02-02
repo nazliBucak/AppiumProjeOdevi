@@ -1,0 +1,65 @@
+Created by testinium on 31.01.2022
+
+This is a concept file with following syntax for each concept.
+
+# Uygulamada açılan sayfada 'Mağazadan Alışveriş' yazısını kontrol et
+*"7" saniye bekle
+*id "com.ozdilek.ozdilekteyim:id/textView" li elementi bul ve "Mağazadan Alışveriş" alanını kontrol et
+
+#Alışverişe başla butonuna tıkla
+*"com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" id'li elemente tıkla
+*"10" saniye bekle
+
+#Alışveriş sayfasının açıldığını doğrula 'Ara' yazısını kontrol et
+*id "com.ozdilek.ozdilekteyim:id/edtSearch" li elementi bul ve "Ara" alanını kontrol et
+
+#Kategoriler butonuna tıkla
+*"com.ozdilek.ozdilekteyim:id/nav_categories" id'li elemente tıkla
+*"10" saniye bekle
+
+#Kategoriler sayfasının açıldığını doğrula 'Kategoriler' kontrol et
+*Xpath "//android.widget.TextView[@text='Kategoriler']" içeren elementi bul ve "Kategoriler" alanını kontrol et
+*"4" saniye bekle
+
+
+#Kategorilerden 'Kadın' yazılanı seç
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][2]" li elemente tıkla
+*"7" saniye bekle
+
+#Pantolon seçeneğine tıklanır
+*"//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][14]" li elemente tıkla
+*"7" saniye bekle
+
+#Ürün seçilmesi kontrol edilir 'Renk' alanına bak
+*id "com.ozdilek.ozdilekteyim:id/tvColorDesc" li elementi bul ve "Renk" alanını kontrol et
+*"7" saniye bekle
+
+#Favorilerime tıkla
+*"com.ozdilek.ozdilekteyim:id/relLayFav" id'li elemente tıkla
+*"7" saniye bekle
+
+#Giriş yapma sayfasının açıldığını gör ve 'E - posta Adresi' yazan texti doğrula
+*id "com.ozdilek.ozdilekteyim:id/etEposta" li elementi bul ve "E - posta Adresi" alanını kontrol et
+
+#Kullanıcı adı alanına 'nazlibucak2020' bilgisi girilir
+*"com.ozdilek.ozdilekteyim:id/etEposta" id'li elemente "nazlibucak2020" yaz
+*"7" saniye bekle
+
+#Password alanına 'sureyya2020' bilgisi yazılır
+*"com.ozdilek.ozdilekteyim:id/etPassword" id'li elemente "sureyya2020" yaz
+*"7" saniye bekle
+
+#geriye dön
+*"com.ozdilek.ozdilekteyim:id/ivBack" id'li elemente tıkla
+*"7" saniye bekle
+
+#Sepete ekle butonuna ekle
+*"com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" id'li elemente tıkla
+*"7" saniye bekle
+
+
+
+
+
+
+

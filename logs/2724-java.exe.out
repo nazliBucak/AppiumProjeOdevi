@@ -1,0 +1,45 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: The requested version 1.5.6 by your slf4j binding is not compatible with [1.6, 1.7]
+SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+{"logLevel":"debug","message":"gauge-java took 753milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 753"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 60897"}
+{"logLevel":"info","message":"Listening on port:60897"}
+Oca 31, 2022 5:02:36 ÖS org.slf4j.helpers.SubstituteLogger info
+INFO: Reflections took 2581 ms to scan 89 urls, producing 10651 keys and 56269 values 
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitForSecond' and 'StepImplementation.waitForSecond'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.sendKeysById' and 'StepImplementation.sendKeysById'"}
+{"logLevel":"debug","message":"Found {} id'sine {} textini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.controlFromId' and 'StepImplementation.controlFromId'"}
+{"logLevel":"debug","message":"Found check {} id in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickByXPath' and 'StepImplementation.clickByXPath'"}
+{"logLevel":"debug","message":"Found {} xpath'li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.textAreaControlId' and 'StepImplementation.textAreaControlId'"}
+{"logLevel":"debug","message":"Found id {} li elementi bul ve {} alanını kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickByid' and 'StepImplementation.clickByid'"}
+{"logLevel":"debug","message":"Found {} id'li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.textAreaControlXpath' and 'StepImplementation.textAreaControlXpath'"}
+{"logLevel":"debug","message":"Found xpath {} li elementi bul ve {} alanını kontrol et in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} id'sine {} textini yaz : public void sendKeysById(String id, String text)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitForSecond(ınt wait) throws InterruptedException"}
+{"logLevel":"debug","message":"\txpath {} li elementi bul ve {} alanını kontrol et : public void textAreaControlXpath(String xpath, String text)"}
+{"logLevel":"debug","message":"\t{} xpath'li elemente tıkla : public void clickByXPath(String selectorxpath)"}
+{"logLevel":"debug","message":"\t{} id'li elemente tıkla : public void clickByid(String selectorid)"}
+{"logLevel":"debug","message":"\tid {} li elementi bul ve {} alanını kontrol et : public void textAreaControlId(String id, String text)"}
+{"logLevel":"debug","message":"\tcheck {} id : public void controlFromId(String idControl)"}
+Oca 31, 2022 5:02:38 ÖS org.slf4j.helpers.SubstituteLogger info
+INFO: Reflections took 2226 ms to scan 89 urls, producing 10561 keys and 47460 values 
+ANDROID TESTI BASLIYOR
+Oca 31, 2022 5:02:47 ÖS io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
